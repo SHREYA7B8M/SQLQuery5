@@ -20,6 +20,7 @@ create table bank.MailInfo (
     MailDate date not null,
     MailMessage nvarchar(200) not null 
 )
+    
 create trigger bank.trgMailToCust
 on bank.Customer
 after insert
